@@ -104,13 +104,9 @@ sendCommand('EXISTS', ['mobilenet'])
 
 								var options = {
 										method: 'POST',
-										uri: 'http://localhost:48080/api/v1/event',
+										uri: 'http://redisedgex.azurewebsites.net/image',
 										body: {
-											device: "countcamera1",
-											readings: [{
-												name: "cameraiamge",
-												value: img
-											}]
+											image: 'data:image/jpeg;base64,' + img
 										},
 										json: true // Automatically stringifies the body to JSON
 								};
