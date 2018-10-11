@@ -12,6 +12,7 @@
     "jimp": "0.5.3",
     "mosca": "2.8.3",
     "redis": "2.8.0",
+    "request": "2.88.0",
     "request-promise": "4.2.2"
 	  
   },
