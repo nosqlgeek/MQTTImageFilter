@@ -12,8 +12,9 @@
     "jimp": "0.5.3",
     "mosca": "2.8.3",
     "redis": "2.8.0",
-    "request-promise": "^4.2.2"
-  }
+    "request-promise": "4.2.2"
+	  
+  },
   "engines": {
 	    "node": "10.3.0"
   }
