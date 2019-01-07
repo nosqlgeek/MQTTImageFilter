@@ -9,3 +9,13 @@ Mosca (http://www.mosca.io/) is a Node.js MQTT broker, which can be also be used
 ## Tensorflow
 
 TODO
+
+## Redis
+
+Redis is an open source (BSD licensed), in-memory data structure store.
+
+The MQTT broker was configured to store the received data in Redis.
+
+TODO
+
+
